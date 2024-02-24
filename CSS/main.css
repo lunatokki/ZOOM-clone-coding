@@ -1,0 +1,162 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  height: 100%;
+  color: #232333;
+  margin: 0;
+  padding: 0;
+  /* display: block; */
+  background-color: #fff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  min-height: 60px;
+  max-height: 64px;
+  line-height: 64px;
+  color: #0e71eb;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededf4;
+  box-sizing: border-box;
+}
+
+.header-logo img {
+  width: 115px;
+  height: 25px;
+  margin: 0 24px 0 20px;
+}
+
+.right {
+  width: 100px;
+  height: 64px;
+  padding: 0 24px 0 0;
+  display: block;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+
+.right .support {
+  width: 26px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.right .text {
+  width: 26px;
+  text-decoration: none;
+  /* display: inline-flex; */
+}
+
+main {
+  padding: 240px 60px 48px 60px;
+  background-attachment: scroll;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 840px;
+  min-height: 480px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.start {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 12px 0;
+}
+.meeting {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  line-height: 24px;
+  padding: 5px 0;
+}
+.button {
+  background: #0e72ed;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 12px;
+  padding: 8px 40px;
+  text-align: center;
+}
+
+.line {
+  background-color: #ededf4;
+  border: none;
+  height: 1px;
+  margin: 48px 0;
+  width: 100%;
+}
+
+.setting {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.setting .download {
+  color: #0e72ed;
+}
+
+
+footer {
+  text-align: center;
+  color: #0404138f;
+}
+
+footer .setting {
+  display: flex;
+  justify-content: center;
+}
+
+footer .setting .first {
+  margin: 2px 0;
+  padding: 0 6px;
+  text-decoration: none;
+  color: #0404138f;
+  border-right: 1px solid #0404138f;
+}
+
+footer .setting .second {
+  margin: 2px 0;
+  padding: 0 6px;
+  text-decoration: none;
+  color: #0404138f;
+  border-right: 1px solid #0404138f;
+}
+
+footer .setting .third {
+  margin: 2px 0;
+  padding: 0 6px;
+  text-decoration: none;
+  color: #0404138f;
+}
+
+footer .chat-bot {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  padding: 12px;
+  background: #0B5CFF;
+  border-radius: 26px;
+  box-shadow: 0px 0px 18px 3px rgb(0 0 0 / 35%);
+  cursor: pointer;
+  border: none;
+}
